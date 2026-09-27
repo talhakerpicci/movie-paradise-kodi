@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.movieparadise" name="Movie Paradise Repository" version="1.0.0" provider-name="Movie Paradise">
+  <extension point="xbmc.addon.repository" name="Movie Paradise Repository">
+    <dir minversion="19.0.0">
+      <info compressed="false">https://raw.githubusercontent.com/talhakerpicci/movie-paradise-kodi/repo/addons.xml</info>
+      <checksum>https://raw.githubusercontent.com/talhakerpicci/movie-paradise-kodi/repo/addons.xml.md5</checksum>
+      <datadir zip="true">https://raw.githubusercontent.com/talhakerpicci/movie-paradise-kodi/repo/</datadir>
+      <hashes>false</hashes>
+    </dir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Movie Paradise add-ons for Kodi</summary>
+    <description lang="en_GB">Installs the Movie Paradise add-on and keeps it up to date.</description>
+    <platform>all</platform>
+    <license>GPL-2.0-or-later</license>
+    <website>https://movieparadise.app</website>
+    <source>https://github.com/talhakerpicci/movie-paradise-kodi</source>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings version="1">
+  <section id="service.movieparadise">
+    <category id="account" label="32010">
+      <group id="1">
+        <setting id="link" type="action" label="32011">
+          <level>0</level>
+          <data>RunScript(service.movieparadise,link)</data>
+          <control type="button" format="action"/>
+        </setting>
+        <setting id="status" type="action" label="32013">
+          <level>0</level>
+          <data>RunScript(service.movieparadise,status)</data>
+          <control type="button" format="action"/>
+        </setting>
+        <setting id="unlink" type="action" label="32012">
+          <level>0</level>
+          <data>RunScript(service.movieparadise,unlink)</data>
+          <control type="button" format="action"/>
+        </setting>
+      </group>
+    </category>
+    <category id="playback" label="32020">
+      <group id="1">
+        <setting id="exclude_server_addons" type="boolean" label="32021" help="32022">
+          <level>0</level>
+          <default>true</default>
+          <control type="toggle"/>
+        </setting>
+        <setting id="notifications" type="boolean" label="32023">
+          <level>0</level>
+          <default>true</default>
+          <control type="toggle"/>
+        </setting>
+      </group>
+    </category>
+  </section>
+</settings>

@@ -1,0 +1,144 @@
+# Kodi Media Center language file
+# Addon Name: Movie Paradise
+# Addon id: service.movieparadise
+msgid ""
+msgstr ""
+"Project-Id-Version: service.movieparadise\n"
+"Report-Msgid-Bugs-To: https://movieparadise.app\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en_GB\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgctxt "#32000"
+msgid "Movie Paradise"
+msgstr ""
+
+msgctxt "#32010"
+msgid "Account"
+msgstr ""
+
+msgctxt "#32011"
+msgid "Link your Movie Paradise account"
+msgstr ""
+
+msgctxt "#32012"
+msgid "Unlink this Kodi"
+msgstr ""
+
+msgctxt "#32013"
+msgid "Link status"
+msgstr ""
+
+msgctxt "#32020"
+msgid "Playback"
+msgstr ""
+
+msgctxt "#32021"
+msgid "Skip plays from the Plex, Jellyfin and Emby add-ons"
+msgstr ""
+
+msgctxt "#32022"
+msgid "Those servers already tell Movie Paradise what you watch. Turn this off only if you have not linked them."
+msgstr ""
+
+msgctxt "#32023"
+msgid "Show notifications"
+msgstr ""
+
+msgctxt "#32030"
+msgid "Link Kodi to Movie Paradise"
+msgstr ""
+
+msgctxt "#32031"
+msgid "On your phone, open Movie Paradise, go to Linked devices and enter this code:"
+msgstr ""
+
+msgctxt "#32032"
+msgid "Or visit {url}"
+msgstr ""
+
+msgctxt "#32033"
+msgid "The code expires in {minutes} min. Linking needs Movie Paradise Premium."
+msgstr ""
+
+msgctxt "#32034"
+msgid "Kodi is linked. What you play now shows on Movie Paradise."
+msgstr ""
+
+msgctxt "#32035"
+msgid "The code expired. Start linking again to get a new one."
+msgstr ""
+
+msgctxt "#32036"
+msgid "This account already has the most linked devices it can have. Remove one in Linked devices, then link again."
+msgstr ""
+
+msgctxt "#32037"
+msgid "This code was already used. If Kodi is not linked, remove the new entry in Linked devices and link again."
+msgstr ""
+
+msgctxt "#32038"
+msgid "Movie Paradise is updating. Try again later."
+msgstr ""
+
+msgctxt "#32039"
+msgid "Movie Paradise could not be reached. Check the connection and try again."
+msgstr ""
+
+msgctxt "#32040"
+msgid "Linked to Movie Paradise."
+msgstr ""
+
+msgctxt "#32041"
+msgid "Not linked yet."
+msgstr ""
+
+msgctxt "#32042"
+msgid "Unlink this Kodi? Remove it in Linked devices too, so the old link stops working."
+msgstr ""
+
+msgctxt "#32043"
+msgid "Unlinked."
+msgstr ""
+
+msgctxt "#32044"
+msgid "Movie Paradise ended this link. Link again to keep sharing what you watch."
+msgstr ""
+
+msgctxt "#32045"
+msgid "Sharing what you watch needs Movie Paradise Premium."
+msgstr ""
+
+msgctxt "#32046"
+msgid "Movie Paradise needs an update before it can take plays from Kodi. Nothing is lost; Kodi keeps them for a day."
+msgstr ""
+
+msgctxt "#32047"
+msgid "Kodi could not send some plays for a day, so they were dropped."
+msgstr ""
+
+msgctxt "#32048"
+msgid "Too many plays are waiting to be sent. Check the connection."
+msgstr ""
+
+msgctxt "#32049"
+msgid "Waiting plays: {count}"
+msgstr ""
+
+msgctxt "#32050"
+msgid "Link"
+msgstr ""
+
+msgctxt "#32051"
+msgid "Status"
+msgstr ""
+
+msgctxt "#32052"
+msgid "Unlink"
+msgstr ""
+
+msgctxt "#32053"
+msgid "The clock on this device looks wrong, so Movie Paradise refused some plays. Check the date and time."
+msgstr ""
