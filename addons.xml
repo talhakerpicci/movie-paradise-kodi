@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="service.movieparadise" name="Movie Paradise" version="1.0.0" provider-name="Movie Paradise">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0" />
+  </requires>
+  <extension point="xbmc.service" library="service.py" />
+  <extension point="xbmc.python.script" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Track what you watch in Kodi with Movie Paradise</summary>
+    <description lang="en_GB">Link Kodi to your Movie Paradise account and what you play shows up as Watching now, with its progress. Movies and episodes you finish are marked as watched. Linking requires Movie Paradise Premium.</description>
+    <platform>all</platform>
+    <license>GPL-2.0-or-later</license>
+    <website>https://movieparadise.app</website>
+    <source>https://github.com/talhakerpicci/movie-paradise-kodi</source>
+    <news>v1.0.0
+- First release</news>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+<addon id="repository.movieparadise" name="Movie Paradise Repository" version="1.0.0" provider-name="Movie Paradise">
+  <extension point="xbmc.addon.repository" name="Movie Paradise Repository">
+    <dir minversion="19.0.0">
+      <info compressed="false">https://raw.githubusercontent.com/talhakerpicci/movie-paradise-kodi/repo/addons.xml</info>
+      <checksum>https://raw.githubusercontent.com/talhakerpicci/movie-paradise-kodi/repo/addons.xml.md5</checksum>
+      <datadir zip="true">https://raw.githubusercontent.com/talhakerpicci/movie-paradise-kodi/repo/</datadir>
+      <hashes>false</hashes>
+    </dir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Movie Paradise add-ons for Kodi</summary>
+    <description lang="en_GB">Installs the Movie Paradise add-on and keeps it up to date.</description>
+    <platform>all</platform>
+    <license>GPL-2.0-or-later</license>
+    <website>https://movieparadise.app</website>
+    <source>https://github.com/talhakerpicci/movie-paradise-kodi</source>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+</addons>
